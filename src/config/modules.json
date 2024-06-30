@@ -1,0 +1,14 @@
+[
+    {
+        "name": "economy",
+        "description": "`Economy module`"
+    },
+    {
+        "name": "utility",
+        "description": "`Utility module`"
+    },
+    {
+        "name": "game",
+        "description": "`Game module`"
+    }
+]

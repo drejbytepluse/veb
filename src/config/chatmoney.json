@@ -1,0 +1,6 @@
+{
+  "status": true,
+  "income": 10,
+  "cooldown": 60,
+  "allowedChannels": [""]
+}
