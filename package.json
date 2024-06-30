@@ -1,0 +1,30 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord Bot for Blockman Forge",
+  "main": "index.js",
+  "author": "Velaire",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "_moduleAliases": {
+    "@common": "src/common",
+    "@commands": "src/commands",
+    "@events": "src/events",
+    "@constants": "src/constants",
+    "@config": "src/config",
+    "@models": "src/models"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "crypto": "^1.0.1",
+    "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security",
+    "mariadb": "^3.2.3",
+    "module-alias": "^2.2.3",
+    "nodemon": "^3.1.0",
+    "redis": "^4.6.13"
+  },
+  "license": "UNLICENSED"
+}

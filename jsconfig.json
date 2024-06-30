@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@common/*": ["src/common/*"],
+            "@commands/*": ["src/commands/*"],
+            "@events/*": ["src/events"],
+            "@constants/*": ["src/constants/*"],
+            "@config/*": ["src/config/*.json"],
+            "@models/*": ["src/models/*"]
+        }
+    }
+}
